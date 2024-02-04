@@ -1,0 +1,1755 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#954F72;
+	text-decoration:underline;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US link="#0563C1" vlink="#954F72" style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:18.0pt;line-height:107%'>Next.js 14 Online Store</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Video Link: <a
+href="https://youtu.be/lZnUgYTFq6E" target="_blank">https://youtu.be/lZnUgYTFq6E</a></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>GitHub
+Repository: <a href="https://github.com/Ashot72/Next.js-14-Online-Store"
+target="_blank">https://github.com/Ashot72/Next.js-14-Online-Store</a></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>This is an online
+store app that embraces many of the features of Next.js 14. </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=452 height=664
+src="doc_files/image001.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 1</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Next.js
+employs a file-system based routing mechanism, where URL paths in the browser
+are determined by files and folders in the codebase. Following</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>conventions
+are crucial for proper routing functionality. We create <i>src/app </i>folder
+and inside the app folder a <i>page.tsx</i> file. This file represents the
+route.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=987 height=763
+src="doc_files/image002.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 2</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>This <i>page.tsx</i>
+represents <i>Home</i> page. </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1082 height=829
+src="doc_files/image003.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 3</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Next.js
+supports dynamic routes. Here we want to access the products of different
+categories. The square brackets <i>[categoryId]</i> indicates a dynamic route
+segment.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1167 height=571
+src="doc_files/image004.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 4</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>In this
+application, we use MongoDB Online </span><a
+href="https://www.mongodb.com/online" target="_blank"><span style='font-size:
+14.0pt;line-height:107%'>https://www.mongodb.com/online</span></a><span
+style='font-size:14.0pt;line-height:107%'> with Prisma, a next-generation ORM </span><a
+href="https://www.prisma.io/" target="_blank"><span style='font-size:14.0pt;
+line-height:107%'>https://www.prisma.io/</span></a></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1215 height=709
+src="doc_files/image005.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 5</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Server
+actions are asynchronous functions that are executed on the server and can be
+defined as <i>use server.</i></span></p>
+
+<p class=MsoNormal><i><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></i></p>
+
+<p class=MsoNormal><img border=0 width=1128 height=862
+src="doc_files/image006.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 6</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Here we
+retrieve user's order (payment) information via server actions. If you do not
+specify the <i>user server</i> explicitly, then it is considered a server
+action.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1208 height=697
+src="doc_files/image007.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 7</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Although we
+have not used server action at an inline level in our app, it is possible to
+use it within an inline function, not necessarily at the module level.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1069 height=468
+src="doc_files/image008.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 8</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>When we
+start using Next.js, we work within a single project where some of our code is
+sent down to the browser and executed there, while some remains on the server
+and is executed there.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>In many
+cases it can be really challenging for us to understand where our code is
+actually running. You may think that a function gets sent down to user's
+browser</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>and is
+executed there, but that is not actually what happens. Instead, a server action
+is being executed on the server, so it is staying</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>on the
+server.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1221 height=780
+src="doc_files/image009.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 9</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We will go
+into detail later on but for now whenever we submit a form, we enter some
+values, such as a name, description etc. and click on the <i>Save</i> </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>button. Some
+JavaScript running inside the browser automatically collects values from the
+form and assembles them into a packet of data sent off in a POST request to our
+Next.js server.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1072 height=749
+src="doc_files/image010.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 10</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Our Next.js
+server is then going to receive that form data and automatically pass it on to
+server action. So, our server action again is running</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>on the
+server that is why it is called server action. Behind the scenes Next.js is
+creating a little miniature route handler for us. That is going</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>to be called
+whenever a user submits a form.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1289 height=679
+src="doc_files/image011.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 11</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Note, that
+form component is a client component and can only import actions that use the
+module-level <i>use server</i> directive and in this case <i>use server </i>must
+be define</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>otherwise,
+you will receive an error.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1197 height=862
+src="doc_files/image012.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 12</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Next.js
+documentation.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=950 height=522
+src="doc_files/image013.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 13</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Whenever we
+work on a Next.js application, we are going to build our app out of two kinds
+of components. First kind is called</span></p>
+
+<p class=MsoNormal><i><span style='font-size:14.0pt;line-height:107%'>Server</span></i><span
+style='font-size:14.0pt;line-height:107%'>. Second kind is called <i>Client</i>.
+The first question that probably comes to your mind is obviously what is the
+difference?</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=891 height=471
+src="doc_files/image014.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 14</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>What is the
+difference between these two things? A client component is like the same kind
+of react component you are already used to</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>using. It is
+a function that returns some JSX. It is going to be rendered into HTML and then
+displayed on the screen. A client</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>component
+can use all the classic features of react component such as hooks, event
+handlers, and so on. Server components in the</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>sense are
+functions that return JSX, but they have some additional limitations around
+them, but some additional capabilities as well.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>When should
+we use one or the other? As much as possible we are going to generally prefer
+to use server components. The reason is very</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>simple. Server
+components are very closely integrated into Next.js. If we use server
+components, we are generally going to get better</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>performance
+and better user experience.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1025 height=628
+src="doc_files/image015.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 15</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>The first
+limitation is that server components cannot use any kind of hooks.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1013 height=761
+src="doc_files/image016.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 16</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Server
+components cannot assign any event handlers. So, these are two big restrictions
+around server components.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1011 height=623
+src="doc_files/image017.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 17</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>As you see,
+for the client component, we use <i>use client </i>directive. They can use
+hooks, they can define state, they can set up event handlers</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>and so on. </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=482 height=428
+src="doc_files/image018.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 18</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>One
+interesting limitation around client components is that they cannot directly
+show a server component. In other words, if I have a client component, I cannot
+import a server </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>component
+and then show it as a child directly.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=929 height=450
+src="doc_files/image019.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 19</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Whenever a
+browser makes a request to our Next.js server, we are going to send them back
+some HTML immediately.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Let's
+imagine that we make a request off to our server. Our Next.js server is going
+to try to render some components.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>In this case
+maybe we have got a single server component that is showing a client component.
+When this occurs, both</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>the server
+component and client component are going to be rendered into HTML. </span></p>
+
+<p class=MsoNormal><img border=0 width=1111 height=585
+src="doc_files/image020.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 20</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>The
+resulting HTML will be taken and sent back down to the user's browser. This
+HTML file that we send down has just plain HTML content</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>inside of
+it.  There is no JavaScript in there. If we need to reach back to the server to
+obtain JavaScript code that might implement event handlers or state, the HTML </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>file will
+cause our browser to make a second request.</span></p>
+
+<p class=MsoNormal><img border=0 width=1066 height=520
+src="doc_files/image021.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 21</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>The second request
+is going to go to the Next.js server. The Next.js server is then going to take
+a look at all of our different client components.</span></p>
+
+<p class=MsoNormal><img border=0 width=1123 height=531
+src="doc_files/image022.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 22</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>It is then
+going to extract all the JavaScript from those client components into a file,
+and send that file down to the user's browser where it then </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>gets
+executed. <i>Even though our client component is called a client component, it
+still gets rendered one time whenever a user first makes</i></span></p>
+
+<p class=MsoNormal><i><span style='font-size:14.0pt;line-height:107%'>a request
+to our server.  </span></i><span style='font-size:14.0pt;line-height:107%'>That
+just a little bit unexpected sometimes because it is called a client component
+and you might think that it only</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>gets
+executed inside the browser, but that is not the case. It does get rendered one
+time on the server.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1222 height=515
+src="doc_files/image023.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 23</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>In the
+header server component, we imported the search-input.tsx client component.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1164 height=842
+src="doc_files/image024.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 24</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Let's
+refresh the page and click on <i>localhost</i>. Take a look at what we get in
+the preview. The fact that we can see that information (search box) in the
+response</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>indicates
+that our client component is indeed being rendered on the server completely. We
+are rendering the client component on the server and then taking</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>the
+resulting HTML, sending it down to the browser, and then a little bit later on,
+all the appropriate JavaScript from that component gets sent down to the</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>browser as
+well.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=844 height=848
+src="doc_files/image025.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 25</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We need to
+make sure that whenever a user tries to submit this form, we make sure that
+they add in some valid name, description etc.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>If they do
+not, we want to show an error message to the user. In addition, we want to make
+sure we have some general error handling.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>If anything
+goes wrong with inserting data into our database, we want to print out an error
+message for that as well. This entire process</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>would
+usually be very easy if we were making a normal react component.  These are
+forms that can run completely without any JavaScript</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>in the user's
+browser. That is the key part. That is why adding the error handling is going
+to be a little bit challenging. When a user submits the form</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>by clicking
+the <i>Save</i> button, information is being taken from the form and sent to a
+server action. The server action then runs. We may redirect the user</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>to some
+other page in our application. We need to somehow allow a server action to run,
+but allow that server action to somehow get our page</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>to render
+again with an error message being displayed on it. In other words, we are
+trying to communicate from a server action back to a page.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=747 height=725
+src="doc_files/image026.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 26</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>To do so we
+are going to use a very specially made hook from the <i>react-dom</i> library
+This hook is called <i>form state</i>. </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Because this
+is a hook, we cannot use it with a server component, so it can only be used
+with a client component.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Even though
+we are going to use this hook with a client component it is still going to work
+just fine even if the user is not</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>running
+JavaScript in the browser. </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1068 height=745
+src="doc_files/image027.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 27</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>When we call
+<i>useFormState</i> we pass some initial data, such as objects etc.  Whenever
+we render out form, the form state object is going to kind</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>of magically
+embed itself inside of the form's HTML. We can imagine this object kind of gets
+directly sent down to the user's browser, and it is</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>going to be
+included in this form invisibly behind the scenes. </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=784 height=842
+src="doc_files/image028.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 29</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Then a user
+is going to enter in a name, description etc. and click on <i>Save</i>. </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1058 height=824
+src="doc_files/image029.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 29</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>When we
+submit the form, the browser is going to collect that information. It will be
+sent of to the backend server where it gets assembled into some</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>form data
+object. Along with that form data, the form state object is also going to be
+included. When our server action gets called, it is going to </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>receive two
+arguments. It is going to receive the form state and the form data. Then inside
+the server action, we can run some validation code and </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>make sure
+that the user entered some validated name, description etc. If the server
+thinks that there is some issue with that data, or if really anything</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>goes wrong
+at all, the server action now has the ability to communicate back into our page
+component.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=930 height=942
+src="doc_files/image030.png"><span style='font-size:14.0pt;line-height:107%'>  
+</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 30</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>To add some
+validation, we use third part package called <i>Zod</i>.  To make use of Zod,
+we are going to import some variable</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>called Z
+from the library. Weare going to first create a schema object. This is an
+essentially a set of validation rules that we want</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>to apply to
+some data in our application. We can use a schema object to validate things
+like arrays, objects, strings, numbers, booleans</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>just about
+every piece of data you can imagine inside of JavaScript program. </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1134 height=660
+src="doc_files/image031.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 31</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>If we want
+to pass extra information to a server action, not just form data, we can do it
+via the JavaScript native <i>bind()</i> function.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1211 height=710
+src="doc_files/image032.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 32</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>In our
+project, we use NextUI </span><a href="https://nextui.org/" target="_blank"><span
+style='font-size:14.0pt;line-height:107%'>https://nextui.org/</span></a><span
+style='font-size:14.0pt;line-height:107%'>, a fully-featured React UI library
+built on top of Tailwind CSS. You can learn how to integrate NextUI into your
+project.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1303 height=634
+src="doc_files/image033.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 33</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We are going
+to go through the process of setting up <i>Next.Auth </i></span><a
+href="https://next-auth.js.org/" target="_blank"><i><span style='font-size:
+14.0pt;line-height:107%'>https://next-auth.js.org/</span></i></a><i><span
+style='font-size:14.0pt;line-height:107%'> </span></i></p>
+
+<p class=MsoNormal><i><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></i></p>
+
+<p class=MsoNormal><img border=0 width=1182 height=725
+src="doc_files/image034.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 34</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We will be
+using Google Provider. </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1219 height=681
+src="doc_files/image035.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure35</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We go to <a
+href="https://console.cloud.google.com/%0d" target="_blank">https://console.cloud.google.com/</a></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We should
+create a new project. I already did but here are the steps.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=801 height=492
+src="doc_files/image036.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 35</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Giving a
+project name and click <i>Create</i>.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=852 height=553
+src="doc_files/image037.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 37</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We open up
+the navigation menu, go to <i>APIs &amp; Services </i>then <i>OAuth consent
+screen</i>.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=884 height=542
+src="doc_files/image038.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 38</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Click <i>Create</i>.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=827 height=564
+src="doc_files/image039.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 39</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We enter the
+App name and Email address.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=776 height=560
+src="doc_files/image040.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 40</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Then we add
+the authorized domain which is going to be </span><a
+href="http://localhost:3000/" target="_blank"><span style='font-size:14.0pt;
+line-height:107%'>http://localhost:3000</span></a></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1035 height=538
+src="doc_files/image041.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 41</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Finally let's
+go to <i>Credentials</i> and <i>Create Credentials</i>. </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1022 height=536
+src="doc_files/image042.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 42</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We select <i>OAuth
+client ID</i> menu item.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=999 height=599
+src="doc_files/image043.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 43</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We choose
+Applicant type as <i>Web Application</i>. Add Authorized JavaScript origin </span><a
+href="http://localhost:3000/" target="_blank"><span style='font-size:14.0pt;
+line-height:107%'>http://localhost:3000</span></a><span style='font-size:14.0pt;
+line-height:107%'> then add Authorized redirect URI as </span><a
+href="http://localhost:3000/" target="_blank"><span style='font-size:14.0pt;
+line-height:107%'>http://localhost:3000</span></a><span style='font-size:14.0pt;
+line-height:107%'> then click <i>Create</i>.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1017 height=544
+src="doc_files/image044.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 44</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>This process
+can take about five minutes but you can immediately see the <i>Client ID</i>
+and <i>Client secret</i>.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=654 height=410
+src="doc_files/image045.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 45</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We go to
+.env file create GOOGLE_CLIENT_ID and GOOGLE_CLIENT_SECRET and copy paste the
+respective values. That is, it!</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1145 height=593
+src="doc_files/image046.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 46</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>In the
+auth.ts file we make use of Google Provider. We need to create <i>app/api/auth/[…nextauth]/route.ts</i>
+file to handle the requests between</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Google
+Servers and ours.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1018 height=589
+src="doc_files/image047.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 47</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>When we
+submit a form the server action can take any amount of time and a user is just
+going to be sitting around wondering what is</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>going on. It
+is better to show simple loading spinner.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1248 height=765
+src="doc_files/image048.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 48</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>For that
+reason, we use <i>useFormStatus </i>hook to show a pending state while a form
+is being submitted.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1414 height=756
+src="doc_files/image049.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 49</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Note <i>useFormStatus
+</i>returns the status for a specific &lt;form&gt;, so it must be defined as a
+child of the &lt;form&gt; element.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1316 height=691
+src="doc_files/image050.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 50</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>In our app,
+you may see that we render the same control in different places but with
+different parameters. On the home page, we show products belonging to the first
+category.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1397 height=630
+src="doc_files/image051.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 51</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We show the
+same products control, but in this case for the selected category.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1377 height=778
+src="doc_files/image052.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 52</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We use the
+same control when searching.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1431 height=852 id="Picture 38"
+src="doc_files/image053.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 53</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>You will see
+that we call query functions in the parent components with different parameters
+and use them in the child component. This way, we can easily reuse the child
+component without any modification.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>In other
+words, we <i>Define in Parent, Fetch in Child</i> approach. </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=913 height=830 id="Picture 39"
+src="doc_files/image054.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 54</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Here are the
+query functions.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1071 height=862 id="Picture 41"
+src="doc_files/image055.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 55</span></p>
+
+<p class=MsoNormal><span style='font-family:"Segoe UI",sans-serif;color:#374151'>In
+our app, we have a Categories page where we recursively render categories.</span></p>
+
+<p class=MsoNormal><span style='font-family:"Segoe UI",sans-serif;color:#374151'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1181 height=317 id="Picture 42"
+src="doc_files/image056.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 56</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>To get all
+categories recursively, we could use the <i>Define in Parent, Fetch in Child</i>
+approach described above. We will retrieve all categories at the root level,
+then for each child, we</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>will find
+its category, which should work fine.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1284 height=830 id="Picture 43"
+src="doc_files/image057.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 57</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Our category
+page.tsx renders CategoryView in CategoryList component. It then calls
+CategoryView component, which in turn recursively calls itself. We call the
+fetchCategories() query function, </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>which is
+impractical as it will be called for each CategoryView.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=974 height=658 id="Picture 44"
+src="doc_files/image058.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 58</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Let's print <i>fetch
+categories</i> in the fetchCtegories function and refresh the category page.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=903 height=743 id="Picture 45"
+src="doc_files/image059.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 59</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>After
+refreshing the page, we see that we got fetch category printed once.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=914 height=683 id="Picture 46"
+src="doc_files/image060.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 60</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We used
+cache(). Let's remove it for a moment.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=737 height=864 id="Picture 47"
+src="doc_files/image061.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 61</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Now we see
+that it is called for each CategoryView component making lots of duplicate
+requests.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=936 height=363 id="Picture 50"
+src="doc_files/image062.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 62</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Let's see
+how the caching system works. We will look at the functions that we were
+calling from our three different components.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Inside of <i>Page</i>
+we are calling getData with 2 inside <i>Profile</i> and <i>Settings </i>with 1.
+</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=935 height=374 id="Picture 51"
+src="doc_files/image063.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 63</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>These are
+going to be received inside of the cache.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=941 height=363 id="Picture 52"
+src="doc_files/image064.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 64</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>The caching
+mechanism is going to take a look at these different functions, and it is going
+to remove any duplicates that it sees.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>In this case
+the duplicates here are getData(1) and getData(1). Those are absolute
+duplicates of each other because it is calling the same</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>function
+with the exact same arguments. </span></p>
+
+<p class=MsoNormal><img border=0 width=943 height=363 id="Picture 53"
+src="doc_files/image065.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 65</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>With the
+cache, the second instance of getData(1) is not allowed to actually run and
+make a request</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>off to the
+database. Instead, only the unique function calls are allowed to run. In this
+case getData(2) and getData(1) will actually be executed.</span></p>
+
+<p class=MsoNormal><img border=0 width=949 height=382 id="Picture 54"
+src="doc_files/image066.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 66</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>The database
+will reply and send data for 2 backward to the page and the data for 1 is going
+to be sent back over to profile.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=935 height=381 id="Picture 55"
+src="doc_files/image067.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 67</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Settings is
+still going to get the return value of calling getData(1). The only difference
+is that the function itself getData(1) does not</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>actually, be
+executed. It does not actually make a request off to the database. Instead, it
+shared whatever response comes back from the</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>previous
+call to getData(1). This is the super simple memorization caching system in
+action.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=760 height=394 id="Picture 56"
+src="doc_files/image068.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 68</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>About <i>cache</i>.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1242 height=761 id="Picture 57"
+src="doc_files/image069.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 69</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>When we run
+our app, users may see no content whatsoever until all of our different
+components have been rendered on the server, which is not good. What we would</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>like to do
+is render the static parts of the page first, and then render the dynamic
+parts. On the home page, we have two dynamic parts: categories and products, as
+it takes</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>time to
+retrieve them from the database.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1301 height=565 id="Picture 58"
+src="doc_files/image070.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 70</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>The
+streaming feature leverages React's Concurrent API and Suspense to <i>suspend</i>
+or <i>pause</i> rendering until the data is ready and available, leading to a
+faster</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>and more
+optimized performance. The Suspense API provides a fallback UI that appears
+while the data is loading. This fallback UI is loaded along with other static
+contents</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>into the
+page. This means that as the page loads, the fallback UI is displayed with
+other contents that are not dynamically rendered. The fallback UI then remains
+visible</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>until the
+asynchronous data fetching is complete. Once data is ready, the fallback UI is
+replaced with data.</span></p>
+
+<p class=MsoNormal><img border=0 width=1221 height=385 id="Picture 61"
+src="doc_files/image071.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 71</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>In our case,
+the fallback UI is the NextUI skeleton control, which is displayed with static
+data. Once the data, categories, or products are retrieved, they are rendered
+with</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>the actual
+data accordingly. Let's talk about one of the most important and truly
+surprising things. When developing a Next.js app, we run <i>npm run dev</i> command
+to run </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>the app
+locally for development. For the production build, we run <i>npm run build </i>followed
+by <i>npm start</i> commands.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=937 height=832 id="Picture 1"
+src="doc_files/image072.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 72</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Before
+running the build command, I slightly modified the <i>createOrUpdateCategory</i>
+function. Once we create a new category, I redirect the user to the home page.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1171 height=590 id="Picture 2"
+src="doc_files/image073.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 73</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>I ran the <i>npm
+run build</i> command, followed by <i>npm start</i> (or <i>npm run start</i>).</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1023 height=759 id="Picture 3"
+src="doc_files/image074.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 74</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>I am
+creating <i>test </i>category at root level.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1096 height=642 id="Picture 4"
+src="doc_files/image075.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 75</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Once you
+click <i>Save</i>, you will be redirected to the Home page and will not see the
+Test category. Even if you see it once you refresh the page, it will be gone.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>When did it
+go? I can refresh the page as many times as I want and I just do not see it
+come back. </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1136 height=755 id="Picture 5"
+src="doc_files/image076.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 76</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Actually, I
+see it created on my MongoDB page. That is a big surprise.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>When you
+start running your application in production mode, the behavior of you
+application changes in a very significant way.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=948 height=576 id="Picture 6"
+src="doc_files/image077.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 77</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>This all
+comes back to idea of caching in Next.js. Next has four different caching
+systems. It is a performance optimization meant to reduce</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>the amount of
+work that our application has to do. Some of these caching systems run when we
+are developing our application. That is the first three.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>These three
+we have been dealing with behind the scenes. When we build our application for
+production, this last system comes into play. It is called</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>the <i>full
+route cache</i>. </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1129 height=600 id="Picture 7"
+src="doc_files/image078.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 78</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We run
+command <i>npm run build</i>. When we run Next.js is going to find all the
+different routes in our application. One route is particular the <i>Home</i>
+page.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Whenever Home
+page is rendered, we reach into our database, get all of our categories, and
+then render them out onto the screen. Next.js finds that</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>route and
+them asks some questions about it. It does a little bit of analysis and it
+tries to determine if the route is static or dynamic. We will talk of</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>these terms
+in just a moment but right now understand that Next.js is going to assume that
+our Home page route is static because it is static.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Next.js is
+going to implement some really aggressive caching on this route. The default behavior
+is really inappropriate for this kind of application</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>we are
+working on right now. We have to configure this or change the caching
+configuration a little bit.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>When we run <i>npm
+run build</i> it is going to render that Home page component and when it
+renders that component, we have some code inside there to </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>reach into
+our database and get all the categories inside there. Let's imagine we have
+categories one, two, three. We are going to fetch these.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>They are
+then going to be rendered into an HTML file. This HTML file is then saved to
+our hard drive. Then, when our application is running in production mode,</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>whenever someone
+types into their address bar localhost 3000 and they come to the Home page of
+our application, they are going to get this exact HTML file</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>that is
+going to have the exact same three categories listed in it for all time. Right now,
+we have no mechanism in our application to update this file in production,</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>even as we
+start to edit or add or delete categories. That is why every time we refresh
+our page, when it is running in production mode, we see the exact </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>same
+categories on the screen. The behavior that the category appeared deleted, it was
+not actually deleted. When we refresh the page, we are just getting</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>the exact
+same HTML file that it kind of has a snapshot of our database from when we
+built our project. We can say, that this default caching behavior is super</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>inappropriate
+for our Home page because our Home page has some data that is going to change
+all the time. That means for lot of applications we work on,</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>whenever we
+have a route that is determines to be static, we probably have to configure the
+caching mechanism where we are going to end up seeing some</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>stale data
+when our application is running in production.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Let's focus
+on what it means to be static or dynamic and how we can kind of figure out
+which routes in our application are which. Let's run <i>npm run build</i>.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=761 height=483 id="Picture 8"
+src="doc_files/image079.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 79</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>After it is
+all done, we are going to get that nice, pretty output at the very end. That
+kind of look like they are just pretty bullet points, but they actually</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>convey a lot
+more information. </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=509 height=348 id="Picture 9"
+src="doc_files/image080.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 80</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>The symbols
+we see next to each route tells us what Next.js thinks about each of the
+different routes we have added into our application. Whenever we</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>see a little
+circle like that, that means that Next.js thinks we have a route that contains static
+data because it is a static route. Dynamic routes are</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>going to
+behave a little but closer to how you might expect a traditional web
+application to work. Whenever someone comes to our application and makes</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>a request,
+Next.js is going to render that page and send the result back to that person.
+Now, the big question becomes how does Next.js decide what a </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>static route
+is and what a dynamic route is? All pages by default are static. In order to
+become a dynamic route, we have to do one of a couple of different</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>things
+inside of the route.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=870 height=556 id="Picture 10"
+src="doc_files/image081.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 81</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>The first
+set of things we can do inside of a page that is going to make it into a
+dynamic route is to modify cookies or to use anything ties to a query</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>string, such
+as access a query string inside of a server component through a prop that is
+automatically passed to our component. We can also force a </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>route to be
+dynamic by setting what is called a route segment configuration. These are very
+specifically named variables, so we can export from our page</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>files. Some
+of different options that we pass to the fetch function to fetch our data is
+going to turn our route into a dynamic route. And finally, the big one.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>This is
+going to occur in a lot of your applications; any time you use dynamic path.
+That is a path where you have got one of those wild cards in it, that is</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>going to
+automatically, by default, turn this into a dynamic route.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=814 height=498 id="Picture 11"
+src="doc_files/image082.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 82</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>In our case
+we got the wild card in two routes. You see that some other routes are also
+dynamic and will come to those a little bit later.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Maybe we
+want a static route, it is not the worst thing in the world. We do kind of want
+caching because it does dramatically improve the performance</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>of our
+application. At some point in time, even with a static route, we have to accept
+that our data may change after initially building our application for
+production. </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We need a
+method for updating this cached file.</span></p>
+
+<p class=MsoNormal><img border=0 width=933 height=515 id="Picture 12"
+src="doc_files/image083.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 83</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Whenever our
+page is rendering with out-of-date data, we want to see a couple of different
+ways that we can control caching without disabling</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>it entirely,
+but that is of course an option. The first way we can deal with this is we can
+set up some time-based caching rules where every so many seconds</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>we will
+ignore the cached page and we will get fresh new data and render our page. We
+can set up on demand cache control where at certain points in time,</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>where we are
+really sure that data has changed, we can forcibly remove a cache page and the
+next request that comes in will render it. And the finally, we can</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>also just
+completely disable caching is we do not want to deal with the system at all.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1229 height=636 id="Picture 13"
+src="doc_files/image084.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 84</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>With
+on-demand, at ever certain points in time where we are really sure that maybe
+the data on some path has changed or the data used by some path has </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>changed we
+can call a function called <i>revalidatePath </i>that tells Next.js that we
+want it to dump any cached version of that particular page, and the next time</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>someone
+makes a request to it; it should render the page from scratch. In our application
+we are one hundred percent aware of when data is changing.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We know our
+data changes whenever one of our server action functions run. Whenever we
+create, edit or delete a category, that is a sign that our data</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>has been
+changed and it is data that is being used by our Home page. We should probably
+use that revalidatePath function to tell Next.js that we want</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>to clear the
+cache of this page and rebuild it next time someone asks for it.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=920 height=642 id="Picture 14"
+src="doc_files/image085.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 85</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Let's see
+how we can enable static caching for dynamic pages by implementing <i>generateStaticParams</i>
+function. </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1166 height=571 id="Picture 15"
+src="doc_files/image086.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 86</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We will do
+it for /[categoryId] dynamic path, which is used when you navigate between
+categories.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1166 height=598 id="Picture 16"
+src="doc_files/image087.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 87</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Whenever we
+run the command <i>npm run build </i>once again, Next.js is going to find all
+the different routes in the application. One it is going to find is</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>/[categoryId].
+Next.js is going to mark this route as dynamic but we can still get some
+caching enabled for this page by implementing a function called</span></p>
+
+<p class=MsoNormal><i><span style='font-size:14.0pt;line-height:107%'>generateStaticParams</span></i><span
+style='font-size:14.0pt;line-height:107%'>. This is going to be a function that
+we export from the page file. Inside the function we are going to write out
+some code that is</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>going to
+reach into our database and get all of the current categories that exists
+inside there. Then from the function we are going to return an array</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>of objects
+that each have Id that is going to be the Id of each of these categories in our
+database. Once these different URLs have been generated,</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Next.js then
+is going to prerender these different routes. Each of this are going to render
+at build time. They are going to rich into the database,</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>get those
+categories, pull them out, render the page, and then Next.js is going to cache
+the result.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1043 height=682 id="Picture 17"
+src="doc_files/image088.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 88</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We
+implemented the <i>generateStaticParams</i> function based on what we just
+described.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=994 height=553 id="Picture 18"
+src="doc_files/image089.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 89</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>After
+running <i>npm run build</i> command that the built output is a little bit
+different this time. It is telling us that it has found <i>/[categoryId]</i></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>and generated
+static params.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1121 height=794 id="Picture 19"
+src="doc_files/image090.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 90</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>These are
+categoryIds found in our database. Next.js made the cached version of those
+Ids.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1167 height=405 id="Picture 20"
+src="doc_files/image091.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 91</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>When you run
+the app in development mode with <i>npm run dev</i> and navigate between
+categories, you will see loading, then categories and products rendering.
+Categories are not cached.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1312 height=637 id="Picture 21"
+src="doc_files/image092.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 92</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>In
+production mode, switching between categories is super-fast. Both categories
+and products render instantly since we are viewing the cached version of the
+page, with no delay. The only problem</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>here is that
+we have cached pages, which means that now we are back in that same scenario,
+we were before.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'> </span></p>
+
+<p class=MsoNormal><img border=0 width=1129 height=805 id="Picture 22"
+src="doc_files/image093.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 93</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We are back
+to on-demand cache control, but with some additions. When we create a new
+category, we should not only revalidate the path for the Home page </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>but also,
+for the remaining categories since the path is not dynamic anymore. For
+example, if you create a new category, let's say <i>test</i>, then when you
+return to</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>the home
+page and try to navigate to another category, such as <i>Lego</i>, the newly
+created <i>test</i> category will disappear. You will get the cached version as
+</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>the path for
+that category has not been revalidated.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1141 height=771 id="Picture 23"
+src="doc_files/image094.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 94</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Creating <i>test</i>
+category.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1020 height=674 id="Picture 24"
+src="doc_files/image095.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 95</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>When
+navigating to any category, all pages are cached, loading instantly, and the <i>test</i>
+category does not disappear when navigating to any category.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'> </span><img
+border=0 width=1352 height=635 id="Picture 25" src="doc_files/image096.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 96</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>In our
+application we authenticate a user both on client and server components.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1435 height=537 id="Picture 26"
+src="doc_files/image097.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 97</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>When we sign
+in, we authenticate a user using the client-side control <i>header-auth.tsx</i>.
+However, when a user wishes to view their payments, we check whether they are
+authenticated </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>or not using
+the server-side component. Both processes work in the same way; we retrieve the
+same properties whether we call authentication on a client control or server. </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1043 height=730 id="Picture 27"
+src="doc_files/image098.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 98</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>In a Next.js
+app, we should prefer using server components instead of client ones.
+Previously, we used the <i>header-auth.tsx</i> file as a client component. I
+changed the code, </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>and now <i>header-auth.tsx</i>
+is not a client component, yet the app works exactly the same way.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1051 height=524 id="Picture 28"
+src="doc_files/image099.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 99</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>If you run <i>npm
+run build</i>, you will be surprised to find that the root route is now a
+dynamic route. Why?</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Whenever you
+make use of this auth function behind the scenes, NextAuth is going to access
+and possibly modify the cookies</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>inside the
+request. We are modifying cookies or possibly reading them.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1107 height=563 id="Picture 29"
+src="doc_files/image100.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 100</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We've
+already discussed it. As we modify the cookies, the page becomes dynamic. On
+every page of our application, we display our header component since we
+included it in the layout file. </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>This means
+that every component, including the header, or every root containing the
+header, essentially every page in our application, is marked as dynamic. </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Simply
+checking whether a user is logged in or not makes our page dynamic.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1324 height=873 id="Picture 30"
+src="doc_files/image101.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 101</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Now, we can
+understand why cart and payments routes are dynamic.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=908 height=862 id="Picture 31"
+src="doc_files/image102.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 102</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>I did some
+testing. I commented out all the code related to authentication and ran the <i>npm
+run build</i> command. Now you can see that the <i>/payments</i> route is
+static.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=787 height=377 id="Picture 32"
+src="doc_files/image103.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 103</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Another
+dynamic route is <i>/search</i>.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=997 height=624 id="Picture 33"
+src="doc_files/image104.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 104</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>In the code
+we see that we have used <i>searchParams</i> prop.</span></p>
+
+<p class=MsoNormal><img border=0 width=936 height=599 id="Picture 34"
+src="doc_files/image105.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 105</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>That made
+the route dynamic.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=786 height=842 id="Picture 35"
+src="doc_files/image106.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 106</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>After
+commenting out the <i>searchParams</i> prop and building the app, we could see
+that the <i>/search</i> route converted to static.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1173 height=685 id="Picture 36"
+src="doc_files/image107.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 107</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We render
+the search box in a client component using <i>useSearchParams</i>. The <i>SearchInput</i>
+component is rendered inside <i>Suspense</i>. Let’s remove <i>Suspense</i> and
+build the app.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1194 height=799 id="Picture 37"
+src="doc_files/image108.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 108</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>After
+building it, we will encounter some warnings. Client components using <i>useSearchParams</i>
+need to be wrapped with <i>Suspense</i>, or you will receive a strange warning
+at build time.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+</div>
+
+</body>
+
+</html>

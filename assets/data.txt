@@ -1,0 +1,72 @@
+1) Lego
+  
+Products 
+     name: Ideas Disney Hocus Pocus 
+     description: Capture the bewitching joy of a classic movie with this collectible LEGO Ideas Disney Hocus Pocus: The Sanderson Sisters’ Cottage (21341) set. The cottage can be opened in multiple ways for easy viewing of the interior details, including the museum gift shop, cauldron with a LEGO light brick to illuminate the fire underneath, Book of Spells and the witches’ bat-infested bedroom. Detach the side room where Dani Dennison was captured by the witches and turn the water wheel outside to make pink ’smoke’ puff out of the chimney. A top Halloween gift idea for fantasy-comedy fans, the set features 6 LEGO minifigures, plus a Thackery Binx (in cat form) figure.
+     price: 109.95
+     count: 36
+     image: Ideas Disney Hocus Pocus.png    
+
+     name: Marvel Spider-Man Final Battle
+     description: Marvel Spider-Man Final Battle (76261) recreates the spectacular showdown from Marvel Studios’ Spider-Man: No Way Home movie. Packed with iconic characters and web-slinging action, this stunning celebration of Spider-Man will captivate fans aged 10 and up. This 360-degree Marvel playset includes an amazing assortment of LEGO Marvel minifigures, including 3 different versions of Spider-Man: Friendly Neighborhood Spider-Man, The Amazing Spider-Man and Spider-Man. The other minifigures are Electro, Doctor Strange, Green Goblin, Ned, MJ and Doc Ock. 
+     price: 10.79
+     count: 50     
+     image: Marvel Spider-Man.png
+
+   1.1) Toys and Games
+   
+   Products:
+      name: Minifigures Marvel Series
+      description: Marvel fans ages 5+ can boost their minifigure collections and play out action-packed adventures with a LEGO Minifigures Marvel Series 2 6 Pack (66735). This is a blind box containing a random selection of 6 Marvel characters from the Series 2 (71039) set. There are 12 in total to collect, and each one comes with at least 1 cool accessory. There are 12 unique characters to collect from some of Marvel Studios’ most popular TV shows and movies: Agatha Harkness, Kate Bishop, Hawkeye, Moon Knight, Mr. Knight, She-Hulk, The Werewolf, Goliath, Storm, Beast, Wolverine, Echo.
+     price: 10.25
+     count: 44  
+     image: Minifigures Marvel Serie.png
+
+      1.1.1) Interlocking Gear Sets
+   
+         Products: 
+           name: LEGO Technic Gears and Transmission Parts Pack
+           description: Loose LEGO original goods in a polybag without original packaging and instructions.
+           price: 19.24
+           count: 5
+           image: LEGO Technic Gears and Transmission Parts Pack.png
+
+       1.1.2) LEGO 16pc Technic gear SET
+
+         Products:
+            name: LEGO 16pc Technic gear SET
+            description: Use to build robotic LEGO creations!
+                       Connects to Technic, Mindstorms and Bionicle
+                       4 each of the most common LEGO gear
+                       8, 16, 24 and 40 tooth gears (Get EXACTLY what you see pictured)
+                       This genuine LEGO spare part bundle comes in a clear sealed plastic bag. NO LEGO BOX or instructions are included.
+            price: 18.18
+            count: 9
+            image: LEGO 16pc Technic gear SET.png
+
+      1.2) Toy Figures & Playsets
+
+        Products:
+           name: Poppy Playtime
+           description: ACTION FIGURE: Includes one 5" tall posable action figure, featuring Huggy Wuggy in a unique gold finish!
+                        ACCESSORIES: Includes one attachable accessory: miniature Poppy in a matching gold finish.
+                        COLLECT THEM ALL: Series 2 features four different action figures to collect: Bunzo Bunny, The Player, White Huggy Wuggy, and Gold Huggy Wuggy.
+                         OFFICIALLY LICENSED: Genuine Poppy Playtime merchandise by PhatMojo and Fragment Games.
+           price: 14.9
+           count: 74
+           image: Poppy Playtime.png
+   
+2) Electronics
+
+    Products:
+      name: INIU Power Bank, 25000mAh 65W USB C Laptop Portable Charger
+      description: 
+✅【From INIU--the SAFE Fast Charge Pro】Experience the safest charging with over 38 million global users. At INIU, we use only the highest-quality materials, so we do have the confidence to provide an industry-leading 3-year warranty.
+✅【65W Fast Charging for All Devices】INIU's inspiring 65W charges your MacBook Pro up to 50% in 30 mins. Hit your phones, tablets and steam deck's latest charging needs, a futuristic feature to rely on.
+✅【25000mAh for A Week】The USB C portable charger power bank fast charging massive power supply can charge MacBook Pro 14ʺ 0.9 time or iPad Pro 12.9" 1.6 times, abundant even for devices of huge capacity.
+✅【Charge 3 at Once】Triple ports are at your pick. Dual USB-C ports directly fit both new iPad and new iPhone, and one USB-A port for your old devices.
+✅【Even Wider Compatibility】INIU battery charger matches with most laptops, tablets, mobiles (iPhone, Samsung...), and small devices as AirPods. Tend your fast charging and trickle charging needs smartly.
+✅【What You Get】INIU 65W usb c battery bank*1, USB C to USB C cable*1, USB A to USB C cable*1, user manual*1, travel pouch*1, 30-day money back guarantee, industry-leading 3-year warranty, and lifetime technical support.
+       price: 59.98
+       count: 11
+       image: INIU Power Bank.png
