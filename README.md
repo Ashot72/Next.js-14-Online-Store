@@ -1,6 +1,6 @@
 # Next.js 14 Online Store
 
-This is a [Next.js 14](https://nextjs.org/docs) Online Store app that uses App Router, NextAuth (Google Provider), NextUI, and TailwindCSS. 
+This is a [Next.js 14](https://nextjs.org/docs) Online Store app that uses App Router, [NextAuth](https://next-auth.js.org/) (Google Provider), [NextUI](https://nextui.org/), and [TailwindCSS](https://tailwindcss.com/). 
 
 As a cloud-based database, [MongoDB](https://www.mongodb.com/atlas/database) is used with [Prisma ORM](https://www.prisma.io/ ). 
 
